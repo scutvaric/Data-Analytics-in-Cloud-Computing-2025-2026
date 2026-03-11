@@ -1,8 +1,5 @@
-# Containerfile (Podman)
-# Builds a small image that runs wine_metrics.py.
-# The dataset is mounted at runtime (volume mount) to highlight host vs container filesystem.
-
 FROM python:3.11-slim
+RUN apt-get update && apt-get install -y procps && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 COPY wine_metrics.py ./
 ENV QUALITY_THRESHOLD=7
