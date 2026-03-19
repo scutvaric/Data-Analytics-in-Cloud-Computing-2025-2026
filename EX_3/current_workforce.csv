@@ -1,0 +1,181 @@
+employee_id,first_name,last_name,gender,age,department,job_role,job_level,business_unit,office_code,hire_date,monthly_income_usd,remote_type,travel_frequency,overtime_flag,performance_rating,promotion_last_24m,engagement_score,manager_support,career_growth,work_life_balance,stress_score,training_hours_ytd,absence_days_ytd,projects_supported,recognition_events_ytd
+10001,Elijah,Miller,Male,40,Engineering,Senior Software Engineer,3,Consumer,AMS,2025-03-28,10782,Remote,Sometimes,Yes,5,No,51,4,5,2,5,23,5,3,1
+10002,Nora,Baker,Female,30,Customer Support,Customer Success Manager,2,Enterprise,MEX,2020-03-18,7383,Hybrid,Rarely,No,4,No,68,2,4,3,2,5,6,1,2
+10003,Jack,Lopez,Male,33,Customer Support,Escalations Lead,3,Consumer,CHI,2023-12-10,8368,Hybrid,Frequently,No,3,No,80,3,2,3,2,45,17,4,3
+10004,Mila,Green,Female,25,Operations,Program Manager,2,Enterprise,LON,2022-09-26,8528,Remote,Sometimes,Yes,4,No,58,4,2,3,3,29,1,5,0
+10005,Evelyn,Jones,Female,32,Sales,Sales Manager,3,Consumer,NYC,2018-12-26,8726,Hybrid,Sometimes,No,5,No,72,4,2,2,2,9,1,7,0
+10006,Chloe,Jones,Female,35,Marketing,Content Strategist,2,Enterprise,NYC,2022-04-10,6477,Hybrid,Rarely,No,4,Yes,56,3,4,4,3,39,5,6,0
+10007,Theodore,Roberts,Male,41,Engineering,Senior Software Engineer,3,Enterprise,NYC,2020-04-14,13786,Hybrid,Rarely,No,4,No,68,3,2,3,2,19,3,5,2
+10008,Jackson,Green,Male,39,Marketing,Content Strategist,2,Consumer,SIN,2023-07-03,7829,Onsite,Rarely,Yes,4,Yes,49,3,2,1,3,17,3,7,0
+10009,Benjamin,Taylor,Male,36,Finance,Financial Analyst,2,Consumer,NYC,2025-06-10,9384,Hybrid,Rarely,No,3,No,43,3,4,3,2,26,2,2,1
+10010,Theodore,Taylor,Male,50,Customer Support,Customer Success Manager,2,Consumer,SIN,2021-02-28,8965,Onsite,Rarely,Yes,4,No,90,3,2,1,4,21,0,5,3
+10011,Evelyn,Martinez,Female,28,Finance,FP&A Manager,3,Consumer,LON,2017-04-25,10447,Hybrid,Rarely,No,4,No,67,4,3,2,4,6,0,5,2
+10012,Aiden,King,Male,40,Engineering,Senior Software Engineer,3,Enterprise,AMS,2022-08-15,10483,Remote,Frequently,No,3,No,62,3,1,3,1,20,8,3,3
+10013,Oliver,Perez,Male,45,Sales,Sales Development Rep,1,Consumer,LON,2024-04-16,5852,Onsite,Frequently,No,3,No,94,4,3,2,4,28,13,1,0
+10014,Scarlett,Miller,Female,45,HR,Talent Partner,3,Enterprise,SFO,2023-01-12,9870,Onsite,Frequently,No,4,No,52,4,3,2,4,10,9,5,2
+10015,Chloe,Lopez,Female,25,Engineering,Software Engineer,2,Consumer,BLR,2020-02-11,7887,Hybrid,Rarely,Yes,2,Yes,61,2,4,2,2,16,11,2,0
+10016,Logan,Robinson,Male,21,Customer Support,Support Specialist,1,Enterprise,CHI,2018-04-22,3872,Remote,Rarely,Yes,3,No,66,3,1,4,4,40,8,2,0
+10017,Nora,Davis,Female,41,Customer Support,Support Specialist,1,Enterprise,LON,2017-01-03,4256,Onsite,Sometimes,No,3,No,71,3,1,4,2,41,3,1,0
+10018,Jackson,Jackson,Male,44,Engineering,Software Engineer,2,Consumer,BER,2024-01-08,8592,Hybrid,Rarely,No,3,No,76,3,2,3,2,15,2,3,1
+10019,Sofia,Walker,Female,37,Operations,Program Manager,2,Consumer,LON,2024-02-26,7070,Onsite,Sometimes,Yes,4,No,47,1,2,3,4,25,11,2,2
+10020,Logan,Miller,Male,32,Customer Support,Customer Success Manager,2,Platform,MEX,2021-06-11,5619,Onsite,Sometimes,Yes,4,No,73,2,1,4,5,29,0,4,3
+10021,Samuel,Campbell,Male,36,Operations,Business Operations Manager,4,Consumer,BLR,2025-02-24,14392,Onsite,Frequently,Yes,3,No,58,4,5,1,4,41,0,1,2
+10022,Layla,Adams,Non-binary,32,Sales,Sales Development Rep,1,Platform,LON,2025-01-14,4906,Remote,Frequently,Yes,3,No,50,4,2,1,5,11,10,3,1
+10023,Harper,Miller,Female,39,Marketing,Marketing Analyst,1,Consumer,NYC,2022-04-09,5575,Hybrid,Rarely,No,5,No,61,3,4,1,4,40,6,2,2
+10024,Aria,Nguyen,Female,44,Engineering,Data Engineer,2,Consumer,AMS,2020-03-10,9038,Onsite,Rarely,Yes,2,Yes,64,2,3,3,4,0,7,3,0
+10025,Sebastian,Gonzalez,Male,32,HR,HR Generalist,2,Consumer,NYC,2023-03-31,6453,Hybrid,Sometimes,No,3,No,58,1,2,2,3,21,12,5,3
+10026,Mason,White,Male,34,Sales,Account Executive,2,Enterprise,SIN,2019-03-27,7824,Onsite,Rarely,No,4,No,91,3,2,3,2,22,8,6,3
+10027,Elizabeth,Ramirez,Female,28,Finance,Financial Analyst,2,Platform,AMS,2022-09-30,7911,Remote,Frequently,Yes,3,No,77,4,3,2,3,14,4,6,1
+10028,Levi,Roberts,Male,36,Finance,Controller,4,Enterprise,NYC,2022-04-03,11951,Remote,Frequently,Yes,4,No,80,3,1,1,4,32,3,5,1
+10029,Mason,Robinson,Male,29,Finance,Financial Analyst,2,Platform,AMS,2021-05-17,7202,Hybrid,Rarely,No,2,No,53,4,2,3,5,8,0,4,2
+10030,Mason,Wright,Male,48,Sales,Account Executive,2,Enterprise,SIN,2025-01-07,7479,Onsite,Frequently,No,4,Yes,98,3,3,3,1,30,6,4,3
+10031,David,Williams,Male,35,Customer Support,Support Specialist,1,Enterprise,BLR,2019-05-06,3331,Remote,Rarely,Yes,3,Yes,70,4,3,3,5,32,11,4,2
+10032,Ethan,Johnson,Male,41,Sales,Sales Development Rep,1,Platform,SIN,2019-03-25,4247,Remote,Rarely,No,3,No,54,3,3,2,5,8,11,5,0
+10033,Elijah,Hernandez,Male,46,Operations,Business Operations Manager,4,Consumer,NYC,2018-01-07,15221,Hybrid,Frequently,Yes,4,No,83,3,5,1,5,34,5,3,2
+10034,Charlotte,Thompson,Non-binary,45,Engineering,Senior Software Engineer,3,Platform,BER,2024-11-12,11943,Remote,Rarely,Yes,2,No,64,4,2,3,3,36,6,7,2
+10035,Amelia,Lopez,Female,40,HR,Talent Partner,3,Consumer,NYC,2017-09-08,9648,Onsite,Sometimes,No,4,Yes,62,3,3,4,3,12,4,4,3
+10036,John,Hernandez,Male,30,HR,Talent Partner,3,Consumer,BLR,2024-07-01,9052,Remote,Frequently,No,3,No,62,3,1,2,2,26,5,3,2
+10037,Matthew,Taylor,Male,52,Engineering,Senior Software Engineer,3,Consumer,NYC,2018-08-15,13394,Remote,Rarely,Yes,5,Yes,58,1,4,2,4,25,6,3,0
+10038,Ava,Davis,Female,34,Sales,Account Executive,2,Enterprise,SIN,2024-02-22,7469,Hybrid,Sometimes,No,2,No,85,4,4,3,3,37,5,3,2
+10039,Avery,White,Female,29,Operations,Program Manager,2,Enterprise,MEX,2022-10-10,6577,Onsite,Frequently,Yes,3,No,57,4,3,2,4,32,5,3,1
+10040,Mia,Campbell,Female,35,Operations,Operations Analyst,1,Consumer,BLR,2025-07-10,4096,Remote,Sometimes,No,5,No,60,4,3,5,4,24,3,3,5
+10041,Noah,Mitchell,Male,39,Finance,Controller,4,Enterprise,AMS,2024-02-13,13994,Remote,Frequently,Yes,2,No,52,4,2,2,3,0,8,7,2
+10042,Sebastian,Sanchez,Male,26,Operations,Operations Analyst,1,Platform,LON,2022-10-09,3921,Hybrid,Sometimes,No,5,No,57,3,2,4,4,32,12,6,6
+10043,Sophia,Nelson,Female,31,Customer Support,Customer Success Manager,2,Enterprise,MEX,2023-02-04,9447,Onsite,Sometimes,Yes,3,No,73,3,2,3,3,8,5,5,1
+10044,Alexander,Lewis,Male,40,Engineering,Senior Software Engineer,3,Enterprise,AMS,2022-09-24,11765,Remote,Frequently,Yes,3,No,68,4,1,3,3,36,1,2,0
+10045,Sofia,Hernandez,Female,34,Marketing,Content Strategist,2,Consumer,SFO,2019-07-16,8429,Hybrid,Sometimes,No,4,No,57,3,2,3,1,28,1,5,1
+10046,Henry,Brown,Male,38,Engineering,Data Engineer,2,Consumer,AMS,2018-07-12,7979,Remote,Frequently,No,4,No,69,4,3,4,4,30,4,4,1
+10047,Oliver,Brown,Male,36,Customer Support,Escalations Lead,3,Consumer,LON,2019-09-21,8035,Hybrid,Rarely,No,3,Yes,89,4,4,4,2,20,8,2,2
+10048,Emily,Jones,Female,40,Engineering,Data Engineer,2,Platform,BLR,2024-07-16,6592,Onsite,Frequently,No,3,No,70,4,4,2,5,34,0,7,4
+10049,Sophia,Roberts,Female,36,Sales,Account Executive,2,Enterprise,MEX,2022-02-05,4932,Hybrid,Rarely,No,3,No,60,3,1,3,3,37,9,5,2
+10050,Nora,Taylor,Female,28,Customer Support,Customer Success Manager,2,Enterprise,CHI,2022-06-19,7324,Hybrid,Rarely,No,4,No,71,3,2,4,5,49,6,3,1
+10051,David,White,Male,51,Sales,Sales Manager,3,Platform,LON,2024-02-27,8907,Hybrid,Frequently,No,2,No,67,4,2,2,5,19,10,6,2
+10052,Henry,Thompson,Male,35,Finance,FP&A Manager,3,Consumer,NYC,2019-06-26,9485,Hybrid,Rarely,No,4,No,73,3,3,2,4,3,2,3,1
+10053,John,Torres,Male,55,Operations,Business Operations Manager,4,Enterprise,LON,2024-03-17,13192,Remote,Rarely,No,5,No,70,2,3,3,3,38,5,6,3
+10054,Mateo,Clark,Male,35,Customer Support,Escalations Lead,3,Enterprise,LON,2022-11-12,12093,Onsite,Sometimes,No,2,No,72,3,1,5,5,17,5,5,3
+10055,Benjamin,Torres,Male,43,HR,Talent Partner,3,Consumer,LON,2017-04-27,9642,Remote,Rarely,No,4,No,78,5,2,5,3,22,5,3,4
+10056,Luna,Moore,Non-binary,32,Marketing,Content Strategist,2,Enterprise,SIN,2018-10-20,6048,Hybrid,Sometimes,No,3,No,48,5,3,1,2,12,0,3,0
+10057,Samuel,Lopez,Male,42,Finance,Controller,4,Platform,AMS,2019-07-22,10718,Hybrid,Sometimes,No,3,No,82,3,2,5,4,20,13,1,0
+10058,Jack,Lopez,Male,35,Sales,Sales Development Rep,1,Consumer,SIN,2021-01-20,6928,Remote,Sometimes,No,4,No,84,3,2,2,4,33,3,2,0
+10059,Theodore,Adams,Male,40,Sales,Sales Manager,3,Consumer,MEX,2018-01-18,8487,Hybrid,Sometimes,Yes,2,No,62,2,3,2,3,24,4,4,0
+10060,Ella,Miller,Female,38,Customer Support,Customer Success Manager,2,Enterprise,MEX,2019-10-05,6373,Remote,Rarely,No,3,No,80,2,3,2,3,35,6,3,3
+10061,Amelia,Lewis,Female,44,Customer Support,Escalations Lead,3,Consumer,BLR,2021-12-03,8134,Hybrid,Frequently,No,3,No,77,2,1,3,4,28,11,2,3
+10062,Wyatt,Harris,Male,36,Engineering,Senior Software Engineer,3,Enterprise,BER,2019-08-20,12188,Remote,Sometimes,Yes,3,No,60,2,2,1,4,17,1,5,1
+10063,Jack,Allen,Non-binary,34,Engineering,Software Engineer,2,Enterprise,AMS,2024-11-15,8348,Onsite,Frequently,Yes,4,No,67,5,4,3,4,0,3,3,0
+10064,Mia,Johnson,Female,31,Finance,FP&A Manager,3,Enterprise,AMS,2018-08-29,7426,Onsite,Rarely,No,2,No,59,3,3,4,3,0,0,2,0
+10065,Aria,Young,Female,36,Customer Support,Customer Success Manager,2,Enterprise,LON,2023-01-15,5033,Remote,Frequently,No,4,No,57,4,3,3,5,29,5,3,3
+10066,Olivia,Flores,Female,42,Marketing,Marketing Analyst,1,Enterprise,NYC,2023-11-20,3748,Hybrid,Rarely,No,2,No,76,3,3,3,3,45,0,3,0
+10067,Mateo,Carter,Non-binary,42,Sales,Account Executive,2,Platform,LON,2018-01-21,5340,Onsite,Frequently,No,5,No,66,4,1,1,2,37,5,4,4
+10068,Evelyn,Thompson,Female,39,HR,HR Generalist,2,Enterprise,LON,2021-07-03,6057,Remote,Rarely,Yes,3,No,80,4,1,2,2,19,6,2,2
+10069,Aria,Brown,Female,30,Marketing,Marketing Analyst,1,Enterprise,NYC,2017-02-21,4472,Onsite,Rarely,No,2,No,98,4,4,3,1,44,8,2,1
+10070,Ava,Lopez,Female,32,Marketing,Marketing Analyst,1,Enterprise,LON,2018-02-02,5737,Hybrid,Sometimes,No,4,No,93,3,1,3,4,42,9,3,0
+10071,Wyatt,Roberts,Male,38,Customer Support,Support Specialist,1,Enterprise,BLR,2018-05-08,3898,Remote,Rarely,No,4,No,80,3,2,2,3,32,9,4,1
+10072,Wyatt,Miller,Male,35,Customer Support,Support Specialist,1,Consumer,LON,2024-05-21,3982,Onsite,Sometimes,No,3,No,98,3,4,4,5,24,0,5,1
+10073,Mason,Thomas,Male,32,Engineering,Software Engineer,2,Consumer,BER,2017-08-29,7841,Remote,Rarely,Yes,5,No,72,3,3,1,3,31,8,2,0
+10074,Theodore,Wright,Male,36,Finance,FP&A Manager,3,Enterprise,AMS,2019-03-23,10535,Hybrid,Rarely,Yes,3,No,42,5,1,2,3,35,8,4,3
+10075,Luna,Flores,Female,36,Engineering,Senior Software Engineer,3,Consumer,AMS,2022-12-01,10494,Remote,Sometimes,No,4,Yes,48,5,3,4,3,0,3,5,3
+10076,Levi,Lopez,Male,46,Customer Support,Escalations Lead,3,Enterprise,MEX,2023-01-12,7618,Hybrid,Rarely,Yes,2,No,65,5,2,2,4,40,3,1,2
+10077,Charlotte,Miller,Female,35,Engineering,Data Engineer,2,Platform,AMS,2019-04-27,12183,Remote,Sometimes,Yes,4,No,53,4,2,1,1,25,11,5,2
+10078,Matthew,Perez,Male,33,Operations,Operations Analyst,1,Platform,NYC,2019-10-06,4741,Remote,Frequently,Yes,4,No,36,3,4,2,5,21,9,2,0
+10079,Nora,Gonzalez,Female,45,Engineering,Senior Software Engineer,3,Consumer,AMS,2018-06-12,9032,Onsite,Sometimes,No,4,No,77,4,1,3,2,53,9,2,3
+10080,Avery,Lee,Female,35,Sales,Account Executive,2,Platform,LON,2023-01-06,8780,Onsite,Frequently,No,3,No,74,4,1,1,4,11,3,1,1
+10081,Levi,Young,Male,53,Marketing,Content Strategist,2,Consumer,LON,2019-07-26,7825,Remote,Rarely,Yes,2,No,73,5,4,4,5,21,10,6,1
+10082,Aria,Roberts,Female,34,Finance,FP&A Manager,3,Enterprise,NYC,2025-02-17,10394,Hybrid,Frequently,No,3,No,64,4,4,2,5,20,2,8,2
+10083,Charlotte,Adams,Female,32,Operations,Program Manager,2,Consumer,CHI,2024-05-19,7793,Onsite,Rarely,Yes,4,Yes,60,4,3,4,3,0,0,6,4
+10084,Avery,Lee,Female,40,Finance,FP&A Manager,3,Consumer,NYC,2025-01-30,12528,Onsite,Sometimes,Yes,3,No,64,3,3,3,4,37,6,5,3
+10085,Olivia,Torres,Female,44,Operations,Business Operations Manager,4,Platform,CHI,2017-10-30,11199,Remote,Rarely,No,2,No,66,2,2,4,3,55,0,1,2
+10086,Lucas,Baker,Male,37,HR,Talent Partner,3,Enterprise,BLR,2018-09-20,9942,Hybrid,Frequently,No,3,No,78,4,3,1,2,33,14,5,1
+10087,John,Hernandez,Non-binary,31,Finance,Financial Analyst,2,Enterprise,CHI,2021-08-08,6751,Hybrid,Rarely,Yes,4,No,61,3,3,2,2,34,7,4,2
+10088,Jacob,Campbell,Male,49,Customer Support,Customer Success Manager,2,Consumer,LON,2025-02-10,6471,Hybrid,Rarely,Yes,3,No,64,3,2,3,2,21,0,2,3
+10089,Michael,Robinson,Male,43,Operations,Business Operations Manager,4,Platform,MEX,2023-02-02,12967,Remote,Sometimes,No,4,No,53,3,3,5,3,43,7,3,0
+10090,William,Nelson,Male,40,Sales,Account Executive,2,Platform,SIN,2023-05-14,7065,Hybrid,Rarely,Yes,4,No,79,5,3,1,5,26,8,3,2
+10091,Abigail,Robinson,Female,50,Finance,Controller,4,Platform,LON,2023-11-14,14431,Onsite,Frequently,Yes,3,No,46,3,4,1,5,16,5,3,3
+10092,Mason,Thompson,Male,30,Sales,Account Executive,2,Enterprise,LON,2020-07-16,7499,Remote,Rarely,No,4,No,65,3,2,4,3,17,7,5,1
+10093,Avery,Hernandez,Female,33,HR,Talent Partner,3,Consumer,LON,2023-04-20,10358,Onsite,Frequently,No,3,No,65,3,4,1,1,14,5,3,3
+10094,Elijah,Carter,Male,39,Operations,Business Operations Manager,4,Consumer,CHI,2021-01-24,13048,Hybrid,Rarely,No,5,No,62,3,3,3,3,40,5,2,2
+10095,Sebastian,Thompson,Male,32,Engineering,Software Engineer,2,Platform,BER,2021-06-01,9065,Remote,Rarely,Yes,5,Yes,70,5,2,4,2,13,3,2,3
+10096,Joseph,Young,Male,45,HR,HR Generalist,2,Enterprise,NYC,2019-11-02,6726,Hybrid,Frequently,No,3,No,73,2,4,2,2,10,9,3,2
+10097,Camila,Ramirez,Female,47,Sales,Account Executive,2,Consumer,SFO,2023-03-09,5809,Hybrid,Sometimes,Yes,2,No,61,3,3,5,3,29,3,4,0
+10098,Emma,Hall,Female,51,Customer Support,Support Specialist,1,Enterprise,MEX,2021-07-26,3000,Hybrid,Sometimes,No,4,Yes,98,3,3,5,2,33,7,2,2
+10099,Evelyn,Moore,Female,32,Customer Support,Customer Success Manager,2,Platform,CHI,2022-09-16,7656,Remote,Rarely,Yes,5,Yes,71,2,3,2,2,30,10,1,3
+10100,Samuel,Garcia,Male,53,Customer Support,Support Specialist,1,Consumer,CHI,2018-10-02,3493,Onsite,Sometimes,No,4,No,86,5,2,2,3,13,3,4,2
+10101,Sophia,Brown,Female,44,Finance,FP&A Manager,3,Consumer,LON,2018-01-11,10532,Hybrid,Rarely,Yes,2,No,86,4,2,3,2,16,10,3,2
+10102,Logan,Gonzalez,Male,32,Sales,Sales Development Rep,1,Enterprise,SIN,2017-09-08,3985,Onsite,Sometimes,No,3,No,80,2,2,3,3,18,2,1,2
+10103,Sebastian,Gonzalez,Male,47,Operations,Program Manager,2,Enterprise,CHI,2024-02-16,8256,Onsite,Sometimes,Yes,4,No,73,4,4,4,4,20,0,2,1
+10104,Jackson,Smith,Male,38,Customer Support,Customer Success Manager,2,Consumer,MEX,2017-09-05,8415,Onsite,Rarely,No,4,No,55,3,4,3,3,15,8,4,3
+10105,Chloe,Baker,Female,43,Finance,Controller,4,Consumer,NYC,2023-10-17,12818,Remote,Frequently,No,4,Yes,81,5,3,4,3,35,6,1,2
+10106,Samuel,Young,Male,46,Customer Support,Customer Success Manager,2,Enterprise,MEX,2021-08-06,6806,Hybrid,Rarely,No,3,No,77,4,1,2,3,38,5,4,2
+10107,Chloe,Carter,Female,33,Engineering,Senior Software Engineer,3,Consumer,AMS,2024-02-03,7941,Onsite,Rarely,No,3,No,80,4,3,2,1,20,8,6,0
+10108,Mia,Wilson,Female,33,Engineering,Data Engineer,2,Consumer,SFO,2018-10-11,8059,Hybrid,Rarely,No,3,No,71,5,1,5,3,21,4,5,0
+10109,Logan,Ramirez,Male,38,Customer Support,Support Specialist,1,Platform,LON,2017-10-02,3554,Onsite,Frequently,No,5,No,87,3,5,2,4,6,13,1,0
+10110,Olivia,Martin,Female,36,Engineering,Senior Software Engineer,3,Consumer,BLR,2022-12-10,11914,Hybrid,Sometimes,No,3,No,53,3,2,3,2,32,8,6,0
+10111,Isabella,Johnson,Non-binary,42,Operations,Program Manager,2,Consumer,LON,2024-02-10,6473,Onsite,Sometimes,No,5,No,84,4,4,3,3,31,3,2,1
+10112,Mason,Hall,Male,46,Marketing,Marketing Analyst,1,Platform,LON,2019-07-27,5631,Remote,Sometimes,No,4,No,71,2,2,5,2,16,12,2,3
+10113,Elijah,Harris,Male,39,Engineering,Software Engineer,2,Enterprise,BLR,2025-03-01,8590,Onsite,Rarely,No,3,No,47,1,1,3,3,10,8,4,1
+10114,Grace,Roberts,Female,43,Customer Support,Customer Success Manager,2,Enterprise,CHI,2023-04-21,4849,Onsite,Rarely,No,3,No,98,3,5,3,3,7,9,6,1
+10115,Benjamin,Adams,Male,44,Customer Support,Customer Success Manager,2,Platform,BLR,2019-03-10,5070,Hybrid,Rarely,No,3,No,92,3,3,4,4,23,10,3,3
+10116,Liam,Martin,Male,39,Marketing,Content Strategist,2,Consumer,SFO,2021-09-23,7412,Hybrid,Rarely,No,2,No,50,4,1,2,3,33,9,4,0
+10117,Camila,Carter,Female,49,Engineering,Senior Software Engineer,3,Consumer,BER,2018-10-30,13952,Onsite,Rarely,No,4,No,70,3,4,3,3,23,9,7,0
+10118,James,Lee,Male,35,Sales,Sales Development Rep,1,Enterprise,SIN,2025-07-13,3837,Hybrid,Sometimes,No,2,No,95,5,2,2,4,31,6,4,4
+10119,Noah,Campbell,Male,31,Engineering,Data Engineer,2,Enterprise,BLR,2025-01-02,8171,Remote,Rarely,Yes,3,No,75,3,2,3,5,31,6,4,0
+10120,Emma,King,Female,33,Customer Support,Support Specialist,1,Enterprise,LON,2022-01-12,4072,Hybrid,Rarely,No,3,No,98,3,2,3,3,34,7,3,1
+10121,Liam,Brown,Male,35,Customer Support,Support Specialist,1,Enterprise,BLR,2018-07-18,4163,Onsite,Sometimes,No,3,No,60,2,1,2,3,41,0,2,4
+10122,Owen,Rivera,Male,38,Engineering,Data Engineer,2,Enterprise,AMS,2017-01-30,9317,Onsite,Sometimes,No,3,Yes,47,5,2,3,3,20,9,4,2
+10123,Isabella,Wright,Female,39,Operations,Business Operations Manager,4,Platform,CHI,2019-04-06,11717,Hybrid,Sometimes,Yes,4,No,84,4,2,2,3,35,0,2,2
+10124,Aria,Adams,Female,35,Sales,Sales Development Rep,1,Enterprise,MEX,2019-04-23,4490,Onsite,Sometimes,Yes,3,No,61,4,2,2,5,42,2,4,4
+10125,Scarlett,Anderson,Female,28,Marketing,Content Strategist,2,Consumer,SFO,2020-09-29,6505,Onsite,Rarely,No,3,No,84,4,3,3,2,38,1,2,2
+10126,William,Young,Male,44,HR,Talent Partner,3,Enterprise,BLR,2019-10-15,9081,Hybrid,Frequently,No,2,Yes,73,4,2,1,2,20,1,1,1
+10127,Alexander,Lewis,Male,44,Finance,Financial Analyst,2,Enterprise,AMS,2024-03-30,8844,Remote,Rarely,No,3,No,80,4,2,3,3,28,0,2,1
+10128,Victoria,Williams,Female,39,Sales,Sales Development Rep,1,Consumer,NYC,2019-04-19,5590,Onsite,Frequently,No,3,No,76,3,3,3,5,24,4,4,2
+10129,Grace,Nguyen,Female,39,Sales,Account Executive,2,Consumer,MEX,2019-06-02,7637,Onsite,Rarely,No,2,No,54,4,3,2,4,11,7,4,0
+10130,Olivia,Torres,Female,33,Sales,Sales Development Rep,1,Enterprise,NYC,2019-04-11,4354,Remote,Frequently,No,4,Yes,65,3,4,3,3,7,11,4,0
+10131,Mila,Ramirez,Female,43,HR,HR Generalist,2,Enterprise,BLR,2017-12-29,6619,Hybrid,Sometimes,Yes,4,No,69,3,2,1,4,18,8,6,0
+10132,James,Lee,Male,28,Finance,FP&A Manager,3,Consumer,CHI,2020-04-12,7397,Hybrid,Rarely,No,3,No,51,3,1,3,3,2,7,4,1
+10133,Mia,Hill,Non-binary,28,Finance,FP&A Manager,3,Platform,CHI,2025-06-15,10859,Hybrid,Rarely,No,3,No,54,4,3,2,3,36,6,1,1
+10134,Jack,Martinez,Male,41,Operations,Program Manager,2,Consumer,MEX,2019-04-24,6416,Hybrid,Frequently,No,4,No,44,3,1,3,2,19,9,3,4
+10135,Henry,Scott,Male,41,Engineering,Data Engineer,2,Enterprise,BLR,2021-03-10,8689,Hybrid,Sometimes,Yes,3,No,73,3,2,2,4,12,1,2,5
+10136,Elijah,Anderson,Male,41,Customer Support,Customer Success Manager,2,Consumer,LON,2022-08-29,6550,Hybrid,Sometimes,No,4,No,50,2,4,3,3,25,4,2,3
+10137,Charlotte,Wright,Female,25,Operations,Operations Analyst,1,Platform,CHI,2024-08-19,5008,Onsite,Sometimes,No,2,No,76,4,2,2,3,22,7,6,1
+10138,Liam,Hall,Male,25,Operations,Program Manager,2,Consumer,MEX,2023-11-24,7749,Hybrid,Sometimes,No,4,No,57,5,3,2,3,31,0,3,0
+10139,Harper,Hall,Female,38,Operations,Program Manager,2,Platform,LON,2020-12-08,6378,Hybrid,Rarely,No,5,No,71,3,3,2,4,12,14,4,1
+10140,Levi,Garcia,Male,47,Customer Support,Customer Success Manager,2,Consumer,CHI,2020-10-13,8318,Remote,Sometimes,Yes,3,No,62,3,2,2,3,26,7,4,2
+10141,Isabella,Nguyen,Female,29,Customer Support,Customer Success Manager,2,Platform,CHI,2021-05-09,5120,Hybrid,Sometimes,No,4,No,67,3,2,4,2,35,4,4,1
+10142,Logan,Lopez,Male,41,Sales,Sales Manager,3,Consumer,SIN,2018-09-27,9680,Onsite,Sometimes,Yes,5,Yes,73,4,1,2,4,41,4,6,1
+10143,Samuel,Harris,Male,49,Sales,Sales Manager,3,Consumer,NYC,2025-01-02,11144,Onsite,Sometimes,No,3,No,65,2,3,3,4,20,11,3,3
+10144,Mateo,Torres,Male,36,Sales,Account Executive,2,Consumer,NYC,2024-10-12,9116,Hybrid,Rarely,No,3,No,93,3,2,5,2,34,5,1,1
+10145,Layla,Ramirez,Female,38,Engineering,Software Engineer,2,Consumer,SFO,2019-09-24,9642,Onsite,Frequently,Yes,5,No,81,5,1,4,4,29,0,3,0
+10146,Harper,Walker,Female,38,Customer Support,Escalations Lead,3,Platform,CHI,2019-04-10,10372,Hybrid,Sometimes,Yes,3,Yes,36,3,4,2,3,25,5,2,0
+10147,Penelope,Moore,Female,34,Customer Support,Escalations Lead,3,Enterprise,SIN,2022-05-22,8727,Hybrid,Sometimes,Yes,4,Yes,73,4,3,4,3,24,8,3,3
+10148,Jack,Wright,Male,38,Customer Support,Support Specialist,1,Consumer,CHI,2022-10-04,3288,Onsite,Sometimes,Yes,5,Yes,63,3,3,3,2,28,6,6,3
+10149,Daniel,Brown,Male,37,Marketing,Content Strategist,2,Consumer,SIN,2025-02-23,7149,Hybrid,Rarely,Yes,5,No,48,3,3,1,4,39,5,3,3
+10150,Samuel,Green,Male,40,Engineering,Data Engineer,2,Consumer,BLR,2021-09-06,7002,Hybrid,Rarely,No,2,Yes,70,3,3,1,2,22,0,5,1
+10151,Harper,Sanchez,Female,36,Operations,Operations Analyst,1,Enterprise,BLR,2020-06-16,4860,Remote,Sometimes,Yes,4,No,70,2,2,3,3,41,8,5,1
+10152,Jack,Jones,Male,28,HR,Talent Partner,3,Enterprise,SFO,2019-07-23,11586,Remote,Frequently,No,3,No,58,5,4,4,2,3,5,6,1
+10153,Henry,Taylor,Male,40,Customer Support,Customer Success Manager,2,Consumer,SIN,2024-09-20,7781,Hybrid,Sometimes,Yes,3,No,56,3,5,4,4,32,4,2,3
+10154,Elijah,Campbell,Male,46,Customer Support,Customer Success Manager,2,Enterprise,MEX,2024-04-06,6378,Onsite,Sometimes,Yes,4,No,53,2,2,2,3,36,8,6,0
+10155,Ava,Taylor,Female,37,Engineering,Senior Software Engineer,3,Platform,SFO,2019-11-10,12162,Remote,Frequently,Yes,5,No,72,4,4,1,5,36,4,4,3
+10156,Logan,Ramirez,Male,53,Operations,Business Operations Manager,4,Consumer,LON,2017-10-15,14003,Onsite,Frequently,Yes,3,No,77,3,4,1,2,24,8,4,2
+10157,Abigail,Flores,Female,36,Operations,Business Operations Manager,4,Consumer,BLR,2020-12-19,13741,Onsite,Sometimes,No,4,Yes,76,4,4,5,3,5,3,3,3
+10158,Eleanor,Harris,Female,35,Engineering,Senior Software Engineer,3,Enterprise,BLR,2020-01-10,12214,Onsite,Rarely,No,4,Yes,66,3,3,3,3,3,5,3,1
+10159,Aria,Hernandez,Female,40,Customer Support,Customer Success Manager,2,Platform,BLR,2023-09-23,6957,Onsite,Rarely,Yes,4,No,62,3,4,4,3,27,8,6,3
+10160,Nora,Harris,Female,36,Engineering,Senior Software Engineer,3,Enterprise,NYC,2021-11-24,10957,Onsite,Sometimes,No,4,No,56,4,3,4,3,12,7,4,0
+10161,Camila,Hill,Female,40,Sales,Sales Manager,3,Consumer,LON,2021-07-13,10883,Hybrid,Sometimes,No,3,No,59,2,3,3,4,11,4,3,1
+10162,Nora,Walker,Female,36,Customer Support,Customer Success Manager,2,Enterprise,CHI,2017-03-31,6584,Hybrid,Sometimes,No,3,No,71,3,2,1,3,43,2,1,2
+10163,Elizabeth,Garcia,Female,38,Sales,Sales Development Rep,1,Consumer,SIN,2018-11-22,3992,Onsite,Frequently,No,3,No,60,2,4,4,1,43,4,3,1
+10164,William,Garcia,Male,30,Sales,Account Executive,2,Enterprise,MEX,2020-04-15,5239,Onsite,Frequently,No,3,No,53,4,1,3,4,12,10,4,1
+10165,Ava,Flores,Female,48,Customer Support,Escalations Lead,3,Enterprise,CHI,2020-03-26,10689,Remote,Frequently,No,3,No,70,3,2,3,3,35,0,1,2
+10166,Henry,Lopez,Male,34,Finance,Financial Analyst,2,Enterprise,NYC,2022-12-26,6678,Hybrid,Rarely,Yes,5,No,60,2,2,2,4,22,10,2,2
+10167,Ethan,Rodriguez,Male,24,Marketing,Marketing Analyst,1,Consumer,LON,2021-02-13,3845,Onsite,Rarely,No,4,No,51,2,4,3,3,20,2,4,0
+10168,Scarlett,Hill,Female,47,Sales,Account Executive,2,Consumer,NYC,2024-08-07,5273,Hybrid,Sometimes,No,4,No,66,2,5,3,2,18,2,2,6
+10169,Elijah,Thompson,Non-binary,36,Engineering,Data Engineer,2,Enterprise,NYC,2018-11-15,6085,Remote,Rarely,No,3,No,81,5,4,2,2,21,0,6,1
+10170,Nora,Clark,Female,46,Sales,Sales Development Rep,1,Consumer,SIN,2021-11-19,6050,Hybrid,Rarely,Yes,4,No,51,2,3,1,2,28,4,3,3
+10171,Amelia,Lewis,Female,36,Customer Support,Support Specialist,1,Enterprise,MEX,2021-08-31,3141,Hybrid,Rarely,No,5,No,77,4,3,1,3,24,9,2,2
+10172,Emily,Robinson,Female,25,Operations,Operations Analyst,1,Platform,LON,2017-06-15,4866,Remote,Sometimes,No,5,No,74,5,1,2,2,11,7,5,2
+10173,William,Smith,Male,23,Customer Support,Support Specialist,1,Consumer,CHI,2022-11-05,4795,Hybrid,Rarely,Yes,3,No,75,4,3,2,4,47,2,5,1
+10174,Sofia,Nguyen,Female,39,Finance,FP&A Manager,3,Platform,NYC,2024-06-22,8048,Hybrid,Rarely,No,4,No,66,3,2,3,2,19,6,1,0
+10175,Ethan,Perez,Male,40,Engineering,Software Engineer,2,Enterprise,AMS,2023-12-02,7382,Hybrid,Rarely,Yes,3,No,61,4,3,4,4,17,9,4,1
+10176,Charlotte,Clark,Female,47,Sales,Account Executive,2,Consumer,LON,2018-11-01,6955,Hybrid,Rarely,No,4,No,90,3,2,2,3,29,6,3,2
+10177,William,Baker,Male,45,Marketing,Demand Generation Manager,3,Consumer,SIN,2025-03-01,10552,Hybrid,Sometimes,No,5,No,74,3,3,3,2,0,7,4,3
+10178,Wyatt,Mitchell,Male,35,Operations,Program Manager,2,Enterprise,BLR,2020-02-17,7155,Hybrid,Sometimes,No,4,No,86,4,4,3,3,5,4,6,3
+10179,Mason,Allen,Male,38,Customer Support,Support Specialist,1,Enterprise,MEX,2019-11-22,3000,Hybrid,Rarely,Yes,2,Yes,53,3,2,3,2,0,10,3,2
+10180,Jackson,White,Male,37,Engineering,Software Engineer,2,Enterprise,AMS,2022-05-25,7072,Hybrid,Rarely,Yes,5,No,43,2,1,2,4,44,10,5,1

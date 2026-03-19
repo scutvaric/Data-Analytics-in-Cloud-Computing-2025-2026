@@ -1,0 +1,11 @@
+office_code,office_city,country,region,timezone
+NYC,New York,USA,North America,America/New_York
+SFO,San Francisco,USA,North America,America/Los_Angeles
+CHI,Chicago,USA,North America,America/Chicago
+LON,London,UK,EMEA,Europe/London
+BER,Berlin,Germany,EMEA,Europe/Berlin
+AMS,Amsterdam,Netherlands,EMEA,Europe/Amsterdam
+BLR,Bengaluru,India,APJ,Asia/Kolkata
+SIN,Singapore,Singapore,APJ,Asia/Singapore
+SYD,Sydney,Australia,APJ,Australia/Sydney
+MEX,Mexico City,Mexico,LATAM,America/Mexico_City
