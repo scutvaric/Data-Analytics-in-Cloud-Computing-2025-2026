@@ -223,6 +223,13 @@ FROM current_workforce c
 LEFT JOIN office_lookup o
     ON c.office_code = o.office_code;
 
+
+
+SELECT CONCAT(first_name,' ',last_name) as full_name, department, region, risk_score, risk_band
+FROM current_workforce_risk_vw
+ORDER BY risk_score DESC
+LIMIT 20;
+
 -- Quick validation queries
 SELECT COUNT(*) AS employee_rows FROM employee_history;
 SELECT COUNT(*) AS survey_rows FROM pulse_survey;
