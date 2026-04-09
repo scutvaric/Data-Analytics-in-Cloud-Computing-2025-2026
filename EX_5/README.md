@@ -1,4 +1,4 @@
-# EX_5 — Azure Machine Learning Lab 1
+# EX_5 — Azure Machine Learning Lab 
 
 In this exercise you explore machine learning workflows in **Azure Machine Learning Studio** using **AutoML**, **Designer**, and **Jupyter notebooks**.
 
