@@ -1,4 +1,4 @@
-# EX_7 — Data Governance in the Cloud
+# EX_6 — Data Governance in the Cloud
 
 In this 60-minute group exercise, you apply core **data governance** concepts to a practical cloud-based scenario. You will identify important data, define basic governance rules, assign responsibilities, assess maturity, and research one or two market solutions that could support data governance in the cloud.
 
