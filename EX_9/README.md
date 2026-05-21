@@ -185,7 +185,7 @@ Sales over time:
 
 ```sql
 SELECT
-  EXTRACT(YEAR FROM PARSE_DATE('%m/%d/%Y', `Order Date`)) AS order_year,
+  EXTRACT(YEAR FROM `Order Date`) AS order_year,
   ROUND(SUM(Sales), 2) AS total_sales
 FROM `analytics_lab.superstore`
 GROUP BY order_year
@@ -213,7 +213,7 @@ Create this view for Looker Studio:
 CREATE OR REPLACE VIEW `analytics_lab.vw_superstore_clean` AS
 SELECT
   `Order ID` AS order_id,
-  PARSE_DATE('%m/%d/%Y', `Order Date`) AS order_date,
+  `Order Date` AS order_date,
   Region AS region,
   Category AS category,
   `Sub-Category` AS sub_category,
