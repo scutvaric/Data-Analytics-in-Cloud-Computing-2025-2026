@@ -1,11 +1,12 @@
 # EX_9 — BigQuery + Looker Studio Lab
 
-In this exercise you build a small cloud analytics dashboard workflow using **Google BigQuery** and **Looker Studio** with the public **Superstore CSV** dataset.
+In this exercise, you build a small cloud analytics dashboard workflow using **Google BigQuery** and **Looker Studio** with the public **Superstore CSV** dataset.
 
 You will:
+
 - Create or select a Google Cloud project
 - Create a BigQuery dataset named `analytics_lab`
-- Download and upload the Superstore CSV dataset
+- Upload the Superstore CSV dataset
 - Create a native BigQuery table named `superstore`
 - Use schema auto-detection during CSV upload
 - Run SQL queries for counts, KPIs, sales by region, profit by category, and sales over time
@@ -22,6 +23,7 @@ You will:
 This lab uses **Google BigQuery** and **Looker Studio**.
 
 Notes:
+
 - Use a Google Cloud project named something like `analytics-lab-yourname`.
 - Create the BigQuery dataset in the **EU** region.
 - Use `Auto detect` when uploading the CSV file.
@@ -33,19 +35,20 @@ Notes:
 
 This lab uses the public **Superstore CSV** dataset.
 
-Download URL:
+The dataset file is included in this exercise folder as:
 
 ```text
-https://raw.githubusercontent.com/plotly/datasets/master/superstore.csv
+Sample - Superstore.csv
 ```
 
-Save the file as:
+If you need to download it manually, use this URL:
 
 ```text
-Superstore.csv
+https://github.com/MySlav/Data-Analytics-in-Cloud-Computing-2025-2026/raw/refs/heads/main/EX_9/Sample%20-%20Superstore.csv
 ```
 
 Main columns used in the lab:
+
 - `Order ID`
 - `Order Date`
 - `Ship Date`
@@ -66,7 +69,7 @@ Main columns used in the lab:
 
 1. Create or select a Google Cloud project
 2. Create a BigQuery dataset named `analytics_lab`
-3. Download `Superstore.csv`
+3. Locate the file `Sample - Superstore.csv`
 4. Upload the CSV into BigQuery as a native table named `superstore`
 5. Preview the uploaded table
 6. Run the first SQL query
@@ -91,6 +94,12 @@ Dataset:
 analytics_lab
 ```
 
+CSV file:
+
+```text
+Sample - Superstore.csv
+```
+
 Table:
 
 ```text
@@ -102,6 +111,15 @@ View:
 ```text
 vw_superstore_clean
 ```
+
+During upload:
+
+- Create table from: `Upload`
+- File format: `CSV`
+- Table name: `superstore`
+- Table type: `Native table`
+- Schema: `Auto detect`
+- Partitioning: `No partitioning`
 
 First test query:
 
@@ -174,6 +192,17 @@ GROUP BY order_year
 ORDER BY order_year;
 ```
 
+If BigQuery auto-detects `Order Date` as a `DATE` field instead of text, use:
+
+```sql
+SELECT
+  EXTRACT(YEAR FROM `Order Date`) AS order_year,
+  ROUND(SUM(Sales), 2) AS total_sales
+FROM `analytics_lab.superstore`
+GROUP BY order_year
+ORDER BY order_year;
+```
+
 ---
 
 ## Clean reporting view
@@ -205,7 +234,11 @@ FROM `analytics_lab.vw_superstore_clean`
 LIMIT 20;
 ```
 
-> If BigQuery auto-detects `Order Date` as a DATE field instead of text, use `` `Order Date` AS order_date `` instead of `PARSE_DATE(...) AS order_date`.
+If BigQuery auto-detects `Order Date` as a `DATE` field instead of text, use this line in the view instead:
+
+```sql
+`Order Date` AS order_date,
+```
 
 ---
 
@@ -214,18 +247,21 @@ LIMIT 20;
 Create these Looker Studio elements:
 
 KPI scorecards:
+
 - Total Sales: `sales` → SUM
 - Total Profit: `profit` → SUM
 - Total Orders: `order_id` → COUNT_DISTINCT
 - Total Quantity: `quantity` → SUM
 
 Charts:
+
 - Sales by region: bar chart, dimension `region`, metric `sales`, SUM
 - Profit by category: column chart, dimension `category`, metric `profit`, SUM
 - Sales over time: time series, dimension `order_date`, metric `sales`, SUM
 - Sales by sub-category: table or bar chart, dimension `sub_category`, metric `sales`, SUM
 
 Filters:
+
 - `region`
 - `category`
 - `ship_mode`
@@ -247,20 +283,49 @@ Complete at least two:
 
 ## Final submission
 
+Submit your completed work by email.
+
 Each student submits:
 
 - Screenshot of BigQuery table upload screen or table preview
 - Screenshot of at least two SQL query results
 - Screenshot of the Looker Studio dashboard
+- Short answer: How many rows are available in the Superstore table?
 - Short answer: Which region has the highest sales?
 - Short answer: Which category has the highest profit?
 - Short answer: How do sales change over time?
 - Short answer: How can this dashboard support business decisions?
 - Notes for at least two completed student exercises
 
+Suggested email subject:
+
+```text
+Exercise 9 - BigQuery + Looker Studio - Your Name
+```
+
+Suggested submission file name:
+
+```text
+Exercise_9_BigQuery_LookerStudio_YourName.pdf
+```
+
+Students may submit:
+
+- A PDF or Word document with screenshots and answers, or
+- A Looker Studio dashboard link plus a separate short-answer file or email text
+
+Before sending, make sure:
+
+- Your name is clearly written in the document or file name.
+- Screenshots are readable.
+- SQL results are visible in the screenshots.
+- The Looker Studio dashboard screenshot shows the main dashboard components.
+- Any shared dashboard link is accessible to the instructor.
+
 ---
 
 ## Files in this folder
 
 - `EX_9_instructions.docx`
-- `README_EX_9.md`
+- `README.md`
+- `Sample - Superstore.csv`
