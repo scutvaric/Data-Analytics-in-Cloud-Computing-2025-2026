@@ -82,7 +82,6 @@ Computer Vision / Cognitive Services resource
 Document Intelligence / Form Recognizer resource
 Custom Vision / Cognitive Services resource
 Speech resource
-Language resource with custom text classification enabled
 Storage account and blob container for custom text classification articles
 Azure Machine Learning compute instance for the OCR Python notebook
 ```
@@ -98,10 +97,6 @@ Custom Vision prediction URL
 Custom Vision prediction key
 Speech key
 Speech region
-Language key
-Language endpoint
-Language Studio project name
-Language deployment/model name
 ```
 
 Do not commit keys or endpoints to GitHub.
@@ -130,11 +125,7 @@ Do not commit keys or endpoints to GitHub.
 18. Generate a `.wav` file from plain text.
 19. Change the text-to-speech voice and create another output file.
 20. Generate speech from an SSML file.
-21. Create a Language resource for custom text classification.
-22. Upload sample articles to Azure Blob Storage.
-23. Create, label, train, evaluate, and deploy a Language Studio text classification project.
-24. Run the text classification PowerShell client.
-25. Use the Speech REST API to transcribe a `.wav` audio file.
+21. Use the Speech REST API to transcribe a `.wav` audio file.
 
 ---
 
@@ -506,120 +497,15 @@ Download and listen to the generated SSML audio file.
 
 ---
 
-## Task 7 — Custom text classification with Azure Language
 
-Create a Language service resource with the custom text classification feature enabled.
-
-Resource settings:
-
-```text
-Feature: Custom text classification & named entity recognition
-Region: West Europe or any available region
-Pricing tier: Free F0
-Storage account: Create new, Standard LRS
-Responsible AI notice: Checked
-```
-
-Save:
-
-```text
-Language key
-Language endpoint
-```
-
-Upload sample articles:
-
-1. Download the sample articles from the Microsoft Learn GitHub repository used in the instructions.
-2. Create a blob container named `articles`.
-3. Set public access level to container if required.
-4. Upload the extracted article files.
-
-Create a Language Studio project:
-
-```text
-Project type: Single label classification
-Name: ClassifyLab
-Description: Custom text lab
-Primary language: English (US)
-Blob store container: articles
-Files labeled with classes?: No, I need to label my files
-```
-
-Create these classes:
-
-```text
-Classifieds
-Sports
-News
-Entertainment
-```
-
-Label the articles:
-
-| Article | Class | Dataset |
-|---|---|---|
-| Article 1 | Sports | Training |
-| Article 2 | Sports | Training |
-| Article 3 | Classifieds | Training |
-| Article 4 | Classifieds | Training |
-| Article 5 | Entertainment | Training |
-| Article 6 | Entertainment | Training |
-| Article 7 | News | Training |
-| Article 8 | News | Training |
-| Article 9 | Entertainment | Training |
-| Article 10 | News | Training |
-| Article 11 | Entertainment | Testing |
-| Article 12 | News | Testing |
-| Article 13 | Sports | Testing |
-
-Train the model:
-
-```text
-Training job model name: ClassifyArticles
-Split: Manual split of training and testing data
-```
-
-Evaluate the model in Language Studio, then deploy it:
-
-```text
-Deployment name: articles
-Model: ClassifyArticles
-```
-
-Run the client application:
-
-```powershell
-git clone https://github.com/MicrosoftLearning/mslearn-ai-language ai-language
-cd ai-language/Labfiles/04-text-classification
-code classify-text.ps1
-```
-
-Update the script with:
-
-```powershell
-$key="YOUR_LANGUAGE_KEY"
-$endpoint="YOUR_LANGUAGE_ENDPOINT"
-$projectName="ClassifyLab"
-$modelName="articles"
-```
-
-Run the tests:
-
-```powershell
-.\classify-text.ps1 test1.txt
-.\classify-text.ps1 test2.txt
-```
-
----
-
-## Task 8 — Speech-to-text with Azure Speech REST API
+## Task 7 — Speech-to-text with Azure Speech REST API
 
 Create an AI Foundry / Speech resource and save its key and region.
 
 Use your own `.wav` file up to 60 seconds, or download the sample audio file:
 
 ```text
-https://crbn.us/whatstheweatherlike.wav
+https://u.pcloud.link/publink/show?code=XZcejI5ZzvDP4ED8DGbqI01HptD6PRo8v07y
 ```
 
 Set environment variables in Windows PowerShell or CMD:
@@ -658,8 +544,7 @@ Complete and document at least several of the following practical extensions:
 4. Digitize your own handwritten note using the OCR notebook.
 5. Create a new text-to-speech `.wav` file using a different voice and custom text.
 6. Create an SSML file with at least two voices and at least one pause.
-7. Run custom text classification on both provided test files.
-8. Transcribe a `.wav` audio file using the Speech REST API.
+7. Transcribe a `.wav` audio file using the Speech REST API.
 
 ---
 
@@ -678,7 +563,6 @@ Each student submits:
 - Screenshot or file evidence that `Shakespeare.wav` was generated
 - Screenshot or file evidence that `Shakespeare2.wav` was generated from SSML
 - Screenshot of Language Studio model deployment or model performance
-- Screenshot of text classification output for `test1.txt` and `test2.txt`
 - Screenshot of Speech-to-text REST API output showing `DisplayText`
 - Short answer: Which Azure AI services did you use in this exercise?
 - Short answer: What did Computer Vision detect in your chosen internet image?
@@ -686,7 +570,6 @@ Each student submits:
 - Short answer: How accurate was your Custom Vision model based on Precision, Recall, and AP?
 - Short answer: What text was extracted from your handwritten note?
 - Short answer: What did the Speech-to-text API recognize from the audio file?
-- Notes for any additional student exercises you completed
 
 Suggested email subject:
 
